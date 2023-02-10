@@ -29,7 +29,7 @@ Se você usa maven:
 <dependency>
 	    <groupId>com.github.SrBalbucio</groupId>
 	    <artifactId>SwingLib</artifactId>
-	    <version>Tag</version>
+            <version>main-SNAPSHOT</version>
 	</dependency>
 ```
 Se você usa Gradle:
@@ -41,7 +41,7 @@ Se você usa Gradle:
 		}
 	}
   	dependencies {
-	        implementation 'com.github.SrBalbucio:SwingLib:Tag'
+	        implementation 'com.github.SrBalbucio:SwingLib:main-SNAPSHOT'
 	}
 ```
 Para mais opções: https://jitpack.io/#SrBalbucio/SwingLib/main-SNAPSHOT
