@@ -11,3 +11,7 @@ Todos os componentes presentes na libraria estão listados abaixo:
 - JCornerPanel (Crie um Panel arredondado)
 ### Border
 - DropShadowBorder (Borda com sombra)
+
+## Ferramentas
+Todas as ferramentas presentes na libraria estão listadas abaixo:
+- ImageUtils (Carregue, edite e manipule imagens)
