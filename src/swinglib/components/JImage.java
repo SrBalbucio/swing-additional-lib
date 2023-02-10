@@ -49,6 +49,9 @@ public class JImage extends JPanel {
 	public void paintComponent(Graphics g) {
 		Graphics2D g2 = (Graphics2D) g.create();
 		g2.setBackground(new Color(0, 0, 0, 0));
+		if(blur) {
+			image = ImageUtils.addBlur(image);
+		}
 		if (image != null) {
 			if (!center) {
 				g2.drawImage(image, 0, 0, this);
