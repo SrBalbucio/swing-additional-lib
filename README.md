@@ -15,3 +15,33 @@ Todos os componentes presentes na libraria estão listados abaixo:
 ## Ferramentas
 Todas as ferramentas presentes na libraria estão listadas abaixo:
 - ImageUtils (Carregue, edite e manipule imagens)
+
+## Importando
+Se você usa maven:
+```maven
+<repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+
+<dependency>
+	    <groupId>com.github.SrBalbucio</groupId>
+	    <artifactId>SwingLib</artifactId>
+	    <version>Tag</version>
+	</dependency>
+```
+Se você usa Gradle:
+```gradle
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+  	dependencies {
+	        implementation 'com.github.SrBalbucio:SwingLib:Tag'
+	}
+```
+Para mais opções: https://jitpack.io/#SrBalbucio/SwingLib/main-SNAPSHOT
