@@ -1,4 +1,4 @@
-package swinglib.components;
+package swinglib.border;
 
 import java.awt.Color;
 import java.awt.Component;
