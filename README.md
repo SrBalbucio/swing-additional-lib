@@ -16,6 +16,7 @@ Todos os componentes presentes na libraria estão listados abaixo:
 ## Ferramentas
 Todas as ferramentas presentes na libraria estão listadas abaixo:
 - ImageUtils (Carregue, edite e manipule imagens)
+- ScreenUtils (Manipule a janela e monitor)
 
 ## Importando
 Se você usa maven:
